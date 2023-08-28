@@ -2,7 +2,7 @@ package repository
 
 import (
 	"github.com/jmoiron/sqlx"
-	"github.com/tsepo4kin/todo-go-rest/types"
+	todo "github.com/tsepo4kin/todo-go-rest/types"
 )
 
 type Authorization interface {

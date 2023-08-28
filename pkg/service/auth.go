@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/tsepo4kin/todo-go-rest/pkg/repository"
-	"github.com/tsepo4kin/todo-go-rest/types"
+	todo "github.com/tsepo4kin/todo-go-rest/types"
 )
 
 const salt = ";lkajsdghui123ijvasduiv98"

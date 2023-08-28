@@ -7,20 +7,20 @@ import (
 )
 
 const (
-	usersTable = "users"
-	todoListsTable = "todo_lists"
+	usersTable      = "users"
+	todoListsTable  = "todo_lists"
 	usersListsTable = "users_lists"
-	todoItemsTable = "todo_items"
-	listItemsTable = "list_items"
+	todoItemsTable  = "todo_items"
+	listItemsTable  = "list_items"
 )
 
 type Config struct {
-	Host string
-	Port string
+	Host     string
+	Port     string
 	Username string
 	Password string
-	DBName string
-	SSLMode string
+	DBName   string
+	SSLMode  string
 }
 
 func NewPostgresDB(cfg Config) (*sqlx.DB, error) {
