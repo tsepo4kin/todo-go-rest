@@ -13,6 +13,18 @@ import (
 	"github.com/tsepo4kin/todo-go-rest/pkg/service"
 )
 
+
+// @title Todo App API
+// @version 1.0
+// @description API Server for TodoList Application
+
+// @host localhost:8080
+// @BasePath /
+
+// @securityDefinitions.apikey ApiKeyAuth
+// @in header
+// @name Authorization
+
 func main() {
 	logrus.SetFormatter(new(logrus.JSONFormatter))
 
